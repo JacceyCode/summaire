@@ -6,4 +6,14 @@ declare global {
     label: string;
     description: string;
   }
+
+  interface Plans {
+    id: string;
+    name: string;
+    price: number;
+    items: string[];
+    description: string;
+    paymentLink: string;
+    priceId: string;
+  }
 }
